@@ -1,0 +1,34 @@
+
+Data Dictionary
+---------------------------------------------
+Columns are named as <Activity. Subject>
+==============================
+Activities are 
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+---------------------------------------------
+
+Subject: 1-30: denoted the observation for the activiy for the particular subject( out of a total of 30 subjects for the study) 
+
+==============================================================
+Rows are means and named as per <signal type.measured from. measurement.dimension>
+------------------------
+Measured from:
+     Accelerometer
+     Gyroscope
+Measurement:
+    linear acceleration,
+    angular velocity
+Dimension:
+    x
+    y
+    z
+signal type:
+ time domain
+ fourier transform 
+            
+
