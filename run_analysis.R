@@ -23,4 +23,7 @@ names<-colnames(dat2)%>%gsub(".[Bb]ody.", "linear acceleration",.)%>%gsub(".Acc.
 colnames(dat2)<-names
 #creating the independent tidy data set with means for each subject and each activity
 means<-sapply(split(dat2,list(dat2$activity,dat2$subject)),function(x){colMeans(x[,1:79])})
-
+#writing to the final data set
+write.table(means, "C:/Coursera/cleandata/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/Final-Assignment/finaldataset.txt")
+#write variable names to a separate document
+write.table(colnames(dat2),"finaldatasetvariables.txt")

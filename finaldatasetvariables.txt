@@ -1,4 +1,4 @@
-
+"x"
 "1" "tBodyAcc.mean...X"
 "2" "tBodyAcc.mean...Y"
 "3" "tBodyAcc.mean...Z"
@@ -78,3 +78,5 @@
 "77" "fBodyBodyGyroJerkMag.mean.."
 "78" "fBodyBodyGyroJerkMag.std.."
 "79" "fBodyBodyGyroJerkMag.meanFreq.."
+"80" "activity"
+"81" "subject"
